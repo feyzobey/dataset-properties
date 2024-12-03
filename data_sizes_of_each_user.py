@@ -35,7 +35,7 @@ plt.bar(user_sizes["user"].astype(str), user_sizes["size_in_bytes"], color="skyb
 
 # Adding labels and title
 plt.xlabel("User")
-plt.ylabel("Data Size (Bytes)")
+plt.ylabel("Data Size (MB)")
 plt.title("Data Size by User")
 plt.xticks(rotation=90)  # Rotate the user labels for better readability
 plt.tight_layout()
