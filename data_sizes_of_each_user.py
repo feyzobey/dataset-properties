@@ -12,7 +12,7 @@ def format_size(bytes):
     return f"{size:.2f} {units[unit_index]}"
 
 
-file_path = "clean_dataset.csv"
+file_path = "dataset.csv"
 columns = ["user", "activity", "timestamp", "x-acceleration", "y-accel", "z-accel"]
 data = pd.read_csv(file_path, names=columns)
 
